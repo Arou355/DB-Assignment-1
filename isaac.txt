@@ -1,0 +1,1 @@
+SELECT movies.title,genres.genre FROM movies RIGHT JOIN genres ON  movies.id = genres.id;
